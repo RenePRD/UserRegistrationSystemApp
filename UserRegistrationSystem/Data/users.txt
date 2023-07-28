@@ -1,0 +1,6 @@
+defaultUsername;defaultPassword;USER
+defaultUsername;defaultPassword;USER
+username1;password1;ADMIN
+username2;password2;USER
+username4;password4;NONE
+username5;password5;USER
