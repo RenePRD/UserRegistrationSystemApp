@@ -27,20 +27,45 @@ A modular console-based user registration system built in **C#** using **.NET**.
 ---
 
 ##  Solution Structure
-UserRegistrationSystemApp.sln # Visual Studio solution file
 
-├── ClientConsoleApp # Console entry point for running the app │ ├── ClientConsoleApp.csproj │ └── Program.cs
+```
+UserRegistrationSystemApp.sln       # Visual Studio solution file
 
-├── UserRegistrationSystem # Core business logic and models │ ├── Data/ │ │ └── users.txt # File-based storage for registered users │ ├── FileReadRegisteredUser.cs # Reads user data from text file │ ├── FileWriteRegisteredUser.cs # Writes user data to text file │ ├── IInstance.cs # Interface for factory pattern │ ├── IReadCommand.cs # Interface for read operations │ ├── IUser.cs # Interface for user abstraction │ ├── IWriteCommand.cs # Interface for write operations │ ├── RegisteredUsersFileUtility.cs │ ├── Role.cs # Enum for user roles (ADMIN, USER, NONE) │ ├── User.cs # User model │ ├── UserFactory.cs # Factory for creating user instances │ ├── UserRegistrationController.cs # Main controller for registration flow │ ├── UserRegistrationException.cs # Custom exception for registration errors │ └── UserRegistrationSystem.csproj
+├── ClientConsoleApp                # Console entry point for running the app
+│   ├── ClientConsoleApp.csproj
+│   └── Program.cs
 
-├── UserRegistrationSystem.UnitTests # NUnit and Moq test project │ ├── UserFactoryTest.cs │ ├── UserRegistrationControllerTest.cs │ └── UserRegistrationSystem.UnitTests.csproj
+├── UserRegistrationSystem          # Core business logic and models
+│   ├── Data/
+│   │   └── users.txt               # File-based storage for registered users
+│   ├── FileReadRegisteredUser.cs   # Reads user data from text file
+│   ├── FileWriteRegisteredUser.cs  # Writes user data to text file
+│   ├── IInstance.cs                # Interface for factory pattern
+│   ├── IReadCommand.cs             # Interface for read operations
+│   ├── IUser.cs                    # Interface for user abstraction
+│   ├── IWriteCommand.cs            # Interface for write operations
+│   ├── RegisteredUsersFileUtility.cs
+│   ├── Role.cs                     # Enum for user roles (ADMIN, USER, NONE)
+│   ├── User.cs                     # User model
+│   ├── UserFactory.cs              # Factory for creating user instances
+│   ├── UserRegistrationController.cs # Main controller for registration flow
+│   ├── UserRegistrationException.cs  # Custom exception for registration errors
+│   └── UserRegistrationSystem.csproj
 
-├── UserRegistrationSystemApp # Optional wrapper or launcher project │ ├── Program.cs │ └── UserRegistrationSystemApp.csproj
+├── UserRegistrationSystem.UnitTests # NUnit and Moq test project
+│   ├── UserFactoryTest.cs
+│   ├── UserRegistrationControllerTest.cs
+│   └── UserRegistrationSystem.UnitTests.csproj
 
-├── .gitignore ├── .gitattributes └── README.md
+├── UserRegistrationSystemApp       # Optional wrapper or launcher project
+│   ├── Program.cs
+│   └── UserRegistrationSystemApp.csproj
 
+├── .gitignore
+├── .gitattributes
+└── README.md
+```
 
----
 
 ##  How to Run
 
