@@ -11,7 +11,7 @@ A modular console-based user registration system built in **C#** using **.NET**.
 - **Testing**: [NUnit](https://nunit.org/), [Moq](https://github.com/moq/moq4)
 - **Storage**: File-based (`users.txt`)
 - **Design**: Interface-based modular architecture
-- **IDE**: Visual Studio or Visual Studio Code
+- **IDE**: Visual Studio
 
 ---
 
