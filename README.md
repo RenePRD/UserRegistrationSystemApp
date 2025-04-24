@@ -24,7 +24,7 @@ A console-based user registration system built with **C# and .NET**, featuring f
 
 ---
 
-## 🧪 Example Test Cases
+## Example Test Cases
 
 - Throws exception when registering an existing username
 - Registers new users and verifies factory usage
@@ -32,7 +32,7 @@ A console-based user registration system built with **C# and .NET**, featuring f
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository
 2. Open `UserRegistrationSystemApp.sln` in Visual Studio
